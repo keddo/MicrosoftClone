@@ -232,23 +232,24 @@ ul {
 
 /* media queries */
 
-@media (max-width: 700px) {
-	.home-cards {
-		grid-template-columns: repeat(2, 1fr);
-	}
+@media (max-width: 780px) {
+.home-cards {
+  grid-template-columns: repeat(2, 1fr);
+}
 
-	.xbox .content p {
-		display: none;
-	}
+.xbox .content p {
+  display: none;
+}
 
-	.xbox .content h2 {
-		margin-bottom: 20px;
-	}
+.xbox .content h2 {
+  margin-bottom: 20px;
+}
 
-	.carbon .content {
-		width: 85%;
-	}
-	.links .inner-links {
-		grid-template-columns: repeat(2, 1fr);
-	}
+.carbon .content {
+  width: 85%;
+}
+
+.links .inner-links {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
